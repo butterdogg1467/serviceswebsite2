@@ -3,7 +3,6 @@
 
 }
 
-
 body {
     background-color: #f2e9e4;
 }
@@ -91,10 +90,12 @@ header {
 }
 
 .img {
-    max-width: 1420px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
+
+
 
 /*----------------------[Portfolio Section]----------------------*/
 
@@ -124,7 +125,7 @@ header {
     border-style: double;
     border-color: #22223B;
     border-width: 10px;
-    max-width: 1410px;
+    max-width: 1887px;
 }
 
 .aboutmaintext {
