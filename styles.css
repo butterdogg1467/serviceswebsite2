@@ -138,8 +138,9 @@ select {
 }
 
 .button:hover {
-    background-color: #4A4E69 ;
+    background-color: #22223b;
 }
+
 
 
 
@@ -269,7 +270,7 @@ a {
 }
 
 #servicesbutton {
-    padding: 45px 90px;
+    padding: 30px 75px;
 }
 
 
