@@ -1,18 +1,31 @@
-// const buttons = document.querySelectorAll("[data-carousel-button]")
+document.addEventListener('DOMContentLoaded', function() {
 
-// buttons.forEach(button => {
-//     button.addEventListener('click', () => {
-//         const offset = button.dataset.carouselButton === 'next'? 1 : -1
-//         const slides = button
-//         .closest('[data-carousel]')
-//         .querySelector('[data-slides]')
+let portfolioImg1 = document.querySelector('#portfolioimg1')
+let portfolioImg2 = document.querySelector('#portfolioimg2')
+let portfolioImg3 = document.querySelector('#portfolioimg3')
 
-//         const activeSlides = slides.querySelector('[data-active]')
-//         let newIndex = [...slides.children].indexOf(activeSlides) + offset
-//         if (newIndex < 0 ) newIndex = slides.children.length - 1
-//         if (newIndex >= slides.children.length) newIndex = 0
+portfolioImg1.addEventListener('mouseenter', function() {
+    portfolioImg1.style.animation = 'shadow-pop-tr1 0.3s ease forwards';
+})  
 
-//         slides.children[newIndex].dataset.active = true
-//         delete activeSlides.dataset.active
-//     })
-// })
+portfolioImg1.addEventListener('mouseleave', function() {
+    portfolioImg1.style.animation = 'shadow-pop-tr-reverse1 0.3s ease reverse';
+})  
+
+portfolioImg2.addEventListener('mouseenter', function() {
+    portfolioImg2.style.animation = 'shadow-pop-tr2 0.3s ease forwards';
+})  
+
+portfolioImg2.addEventListener('mouseleave', function() {
+    portfolioImg2.style.animation = 'shadow-pop-tr-reverse2 0.3s ease reverse';
+})
+
+portfolioImg3.addEventListener('mouseenter', function() {
+    portfolioImg3.style.animation = 'shadow-pop-tr3 0.3s ease forwards';
+})  
+
+portfolioImg3.addEventListener('mouseleave', function() {
+    portfolioImg3.style.animation = 'shadow-pop-tr-reverse3 0.3s ease reverse';
+})
+
+})
