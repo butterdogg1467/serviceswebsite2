@@ -307,6 +307,19 @@ a {
     color: #22223B;
 }
 
+/*----------------------[Footer Section]----------------------*/
+
+footer {
+  background-color: #22223B;
+  height: 250px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
 
 /*----------------------[HOMEPAGE END]----------------------*/
 
