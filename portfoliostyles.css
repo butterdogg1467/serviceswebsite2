@@ -2,9 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body  {
-    
-}
 
 body::-webkit-scrollbar  {
     -ms-overflow-style: none;  
@@ -33,7 +30,7 @@ body::-webkit-scrollbar  {
     }
   }
    
-  @keyframes shadow-pop-tr1 {
+  @keyframes shadow-pop-tr {
     0% {
       box-shadow: 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69;
       transform: translateX(0) translateY(0);
@@ -44,7 +41,7 @@ body::-webkit-scrollbar  {
     }
   }
 
-  @keyframes shadow-pop-tr-reverse1 {
+  @keyframes shadow-pop-tr-reverse {
     0% {
       box-shadow: 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69, 0 0 #4A4E69;
       transform: translateX(0) translateY(0);
@@ -55,49 +52,6 @@ body::-webkit-scrollbar  {
     }
   }
 
-  @keyframes shadow-pop-tr2 {
-    0% {
-      box-shadow: 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98;
-      transform: translateX(0) translateY(0);
-    }
-    100% {
-      box-shadow: 1px -1px #9a8c98, 2px -2px #9a8c98, 3px -3px #9a8c98, 4px -4px #9a8c98, 5px -5px #9a8c98, 6px -6px #9a8c98, 7px -7px #9a8c98, 8px -8px #9a8c98;
-      transform: translateX(-8px) translateY(8px);
-    }
-  }
-
-  @keyframes shadow-pop-tr-reverse2 {
-    0% {
-      box-shadow: 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98, 0 0 #9a8c98;
-      transform: translateX(0) translateY(0);
-    }
-    100% {
-      box-shadow: 1px -1px #9a8c98, 2px -2px #9a8c98, 3px -3px #9a8c98, 4px -4px #9a8c98, 5px -5px #9a8c98, 6px -6px #9a8c98, 7px -7px #9a8c98, 8px -8px #9a8c98;
-      transform: translateX(-8px) translateY(8px);
-    }
-  }
-
-  @keyframes shadow-pop-tr3 {
-    0% {
-      box-shadow: 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7;
-      transform: translateX(0) translateY(0);
-    }
-    100% {
-      box-shadow: 1px -1px #C9ADA7, 2px -2px #C9ADA7, 3px -3px #C9ADA7, 4px -4px #C9ADA7, 5px -5px #C9ADA7, 6px -6px #C9ADA7, 7px -7px #C9ADA7, 8px -8px #C9ADA7;
-      transform: translateX(-8px) translateY(8px);
-    }
-  }
-
-  @keyframes shadow-pop-tr-reverse3 {
-    0% {
-      box-shadow: 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7, 0 0 #C9ADA7;
-      transform: translateX(0) translateY(0);
-    }
-    100% {
-      box-shadow: 1px -1px #C9ADA7, 2px -2px #C9ADA7, 3px -3px #C9ADA7, 4px -4px #C9ADA7, 5px -5px #C9ADA7, 6px -6px #C9ADA7, 7px -7px #C9ADA7, 8px -8px #C9ADA7;
-      transform: translateX(-8px) translateY(8px);
-    }
-  }
   
   
 
@@ -146,4 +100,5 @@ select {
     flex-direction: column;
     text-align: center;
 }
+
 
