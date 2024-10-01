@@ -75,3 +75,24 @@ li {
     font-family: 'Xolonium', Arial, Helvetica, sans-serif;
     text-align: start;
 }
+
+.planprice {
+    margin-top: 100px;
+}
+
+#planprice3 {
+    margin-top: 78px;
+}
+
+.pricetitle {
+    color: white;
+    font-family: 'Xolonium', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.pricenumber {
+    color: white;
+    font-family: 'Xolonium', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: green;
+}
