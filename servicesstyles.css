@@ -1,0 +1,77 @@
+.plancontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 750px;
+    padding: 10px;
+}
+
+.plan > h1 {
+    font-family: 'nemoy', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.plan {
+    background-image: linear-gradient(#372E44, #22223b);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#plan0 {
+    margin-right: 10px;
+    border-top: solid 20px white;
+    transition: border-top 0.2s;
+}
+
+#plan1 {
+    margin-right: 10px;
+    border-top: solid 20px #CD7F32;
+    transition: border-top 0.2s;
+}
+
+#plan2 {
+    border-top: solid 20px #C0C0C0;    
+    transition: border-top 0.2s;
+}
+
+#plan3 {
+    margin-left: 10px;
+    border-top: solid 20px #FFD700;    
+    transition: border-top 0.2s;
+}
+
+#plan0:hover {
+    border-top: solid 30px white;
+}
+
+#plan1:hover {
+    border-top: solid 30px #CD7F32;
+}
+
+#plan2:hover {
+    border-top: solid 30px #C0C0C0;    
+}
+
+#plan3:hover {
+    border-top: solid 30px #FFD700;
+}
+
+.plandesc {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.desctext {
+    color: white;
+    font-family: 'Xolonium', Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin-top: 20px;
+    color: white;
+    list-style:circle;
+}
+
+li {
+    font-family: 'Xolonium', Arial, Helvetica, sans-serif;
+    text-align: start;
+}
