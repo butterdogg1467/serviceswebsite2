@@ -119,3 +119,22 @@ button {
 button:hover {
     filter:brightness(0.90);
 }
+
+.extras {
+    background-color: red;
+    border-radius: 20px;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    text-align: center;
+    background-color: white;
+    border-color: #22223b;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.extrash1 {
+    font-family: 'nemoy', Arial, Helvetica, sans-serif;
+    color:#22223b;
+}
