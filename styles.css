@@ -148,6 +148,7 @@ header {
     color: white;
     padding-bottom: 100px;
     text-align: center;
+    font-family: 'Xolonium', Arial, Helvetica, sans-serif;
 }
 
 .herosubtext {
@@ -156,6 +157,7 @@ header {
     color: white;
     padding-top: 150px;
     text-align: center;
+    font-family: 'Xolonium', Arial, Helvetica, sans-serif;
 }
 
 .img {
@@ -229,6 +231,7 @@ a {
 
 .portfoliolink {
     margin-bottom: 100px;
+    font-family: 'Xolonium', Arial, Helvetica, sans-serif;
 }
 
 #portfoliolink3 {
@@ -243,6 +246,7 @@ a {
     padding: 25px 0px;
     background-color: white;
     border: white solid 2px;
+    font-family: 'Xolonium', Arial, Helvetica, sans-serif;
     color: #2894FC;
 }
 
@@ -270,6 +274,7 @@ a {
 }
 
 #servicesbutton {
+  font-family: 'Xolonium', Arial, Helvetica, sans-serif;
   padding: 30px 75px;
 }
 
@@ -320,6 +325,9 @@ footer {
   justify-content: space-evenly;
 }
 
+.contactinfo > h3 {
+  font-family: 'Xolonium', Arial, Helvetica, sans-serif;
+}
 
 
 /*----------------------[HOMEPAGE END]----------------------*/
